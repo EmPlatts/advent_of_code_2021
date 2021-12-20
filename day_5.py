@@ -101,5 +101,5 @@ with open('inputs/input_day_5.txt') as f:
     vents = [s.replace(' -> ', ',').split(',') for s in vents_file]
     vents = [[int(x) for x in s] for s in vents]
     vents = [[vent[0:2], vent[2:4]] for vent in vents]
-    print(f'The answer to Part 1 is: {get_vents_crossed(vents)}')
-    print(f'The answer to Part 2 is: {get_actual_vents_crossed(vents)}')
+    print(f'The answer to Part 1 is: {get_vents_crossed(vents)}.')
+    print(f'The answer to Part 2 is: {get_actual_vents_crossed(vents)}.')
