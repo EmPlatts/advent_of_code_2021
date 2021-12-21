@@ -9,8 +9,6 @@ Given an initial starting configuration of lantern fish, find how many there
 would be after 80 days.
 """
 
-lantern_fish_init = [3,4,3,1,2]
-
 def find_fish_population(lantern_fish_pop):
     for day in range(80):
         for fish in lantern_fish_pop:
